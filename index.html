@@ -6,71 +6,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>endulande</title>
     <link rel="stylesheet" href="./asset/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/asset/font/fontawesome-free-6.1.1-web/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-
     
 </head>
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./asset/images/Sans titre.png" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="./asset/images/Sans titre.png" alt="">
+               <!-- <span> ecole Supérieure Polytechnique d'Antananarivo</span>  -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+  
+                <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     concours
+                    concours
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">formulaire d'inscription</a></li>
+                      <li><a class="dropdown-item" href="formulaire.html">formulaire d'inscription</a></li>
                     </ul>
-                  </li>
+                </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">agenda </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="actualites.html">actualite </a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     formation
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">mention</a></li>
+                      <li><a class="dropdown-item" href="mention.html">mention</a></li>
+                  </ul>
+                </li>
+                  
+  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     devenir etudiant(e)
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="mention.html">-Mention</a></li>
                     </ul>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       devenir etudiant(e)
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">-Mention</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                       service
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">-Certification</a></li>
-                        <li><a class="dropdown-item" href="#">-BU these</a></li>
-                      </ul>
-                    </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">apropos</a>
                   </li>
-                </ul>
-                <form class="d-flex">
-                  <button class="btn btn-success" type="submit">Search</button>
-                </form>
-              </div>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                     service
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="certification.html">-Certification</a></li>
+                      <li><a class="dropdown-item" href="BUthese.html">-BU these</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="apropos.html">apropos</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
             </div>
-          </nav>
-     </header>
+          </div>
+      </nav>
+  </header>
     <!-- landing page -->
     <section class="landing">
         <div class="container">
@@ -109,19 +116,19 @@
                 <div class="col-sm-12 col-md-8 col-lg-4 m-2 mt-3 ms-2">
                     <h2>Genie des procedes Industrielle</h2>
                     <div class="mention">
-                      <a class="genie btn btn-secondary" href="">Genie rural</a>
-                      <a  class="genie btn btn-secondary" href="">Genie Mecanique et Industrielle</a>
-                      <a  class="genie btn btn-secondary" href="">sciences et ingénie des materiaux</a>
-                      <a  class="genie btn btn-secondary" href="">genie des procedes chimique et Industrielle</a>
+                      <a class="genie btn btn-secondary" href="genie_rural.html">Genie rural</a>
+                      <a  class="genie btn btn-secondary" href="genie_mecanique&industrielle.html">Genie Mecanique et Industrielle</a>
+                      <a  class="genie btn btn-secondary" href="Science_et_Ingénierie_des_Matériaux .html">sciences et ingénie des materiaux</a>
+                      <a  class="genie btn btn-secondary" href="Génie des Procédés Chimiques et Industriels .html">genie des procedes chimique et Industrielle</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-4 m-2 mt-3 ms-2">
                     <h2>Genie des sciences et Technologie Industrielle </h2>
                     <div class="mention">
-                      <a  class="genie btn btn-secondary" href="">telecommuication</a>
-                      <a  class="genie btn btn-secondary" href="">electronique</a>
-                      <a  class="genie btn btn-secondary" href="">ingenieurie des systemes avance</a>
-                      <a  class="genie btn btn-secondary" href="">Meteorologie</a>
+                      <a  class="genie btn btn-secondary" href="telecommunication.html">telecommuication</a>
+                      <a  class="genie btn btn-secondary" href="electronique.html">electronique</a>
+                      <a  class="genie btn btn-secondary" href="ingenieurie des systmes.html">ingenieurie des systemes avance</a>
+                      <a  class="genie btn btn-secondary" href="meteorologie.html">Meteorologie</a>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-4 m-2 mt-3 ms-2">
@@ -181,19 +188,19 @@
     </section>
 
     <!--actualite -->
-    <section class="actualite  justify-content-center  ">
+    <section class="actualite ">
       <div class="container">
-        <h3>actualite</h3>
-      <div class="card justify-content-center" style="width: 18rem; ">
+        <h3 class="text-center mb-5">actualite</h3>
+      <div class="card m-auto " style="width: 18rem; ">
         <img src="./asset/images/depertment-2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">inscription</h5>
           <p class="card-text">les inscriptions sont ouvert maintenant </p>
+          <button class="btn btn-primary">inscrire</button>
           <i class="fa-brands fa-facebook"></i>
         </div>
       </div>
-      </div>
-      
+      </div>  
     </section>
 
     <!-- footer -->

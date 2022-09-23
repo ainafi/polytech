@@ -1,0 +1,21 @@
+    h1{
+        color: blue;
+    }
+    .avance{
+        background: url(../images/gsti/systeme\ avance.webp);
+        
+         background-size: cover;
+         position: relative;
+     
+         }
+       .avance::after{
+         content: " ";
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         background-color: rgb(121, 112, 112);
+         height: 100%;
+         opacity: .1;
+     }
+   

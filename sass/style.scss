@@ -1,9 +1,16 @@
-
+@font-face {
+    font-family: cinzel;
+    src: url('/asset/font/CinzelDecorative-Black.ttf');
+}
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     text-transform: capitalize;
+}
+.display-1{
+    font-family: cinzel !important;
+    text-transform: uppercase;
 }
 // header
 header{
@@ -12,6 +19,9 @@ header{
         img{
             width: 75px;
         }
+    }
+    .nav-item{
+        margin-left: 10px;
     }
 }
 // landing page
